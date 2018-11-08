@@ -23,7 +23,6 @@ void Tokenize(char* input, int* token) {
 }
 
 int main(int argc, char* argv[]) {
-	printf("Assignment #1-3, Reian Festejo, rfestejo@sdsu.edu\n");
 	if(argc != 2) {
 		printf("\nThis program expects a single commmand line argument.\n\n");
 		return 0;
