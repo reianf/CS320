@@ -14,10 +14,6 @@ int main(int argc, char *argv[]){
 	while(getline(file,a)){
 		try{
 			t.Tokenize(a);
-			if(a == "pop 6") {
-			    cout << "Parse error on line " << i << ": " << a << endl;
-                return 1;
-            }
 		}
 		catch(string s){
 			cout << "Error on line " << i << ": " << s << endl;
